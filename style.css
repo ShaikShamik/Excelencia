@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+}
+/* .banner>.row{
+    display: flex;
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid black;
+} */
+.banner>div{
+    width: 100%;
+    border: 2px solid black;
+
+}
+.que{
+    border: 2px solid black;
+}
+.que>.forms{
+    width: 50%;
+    height: 100%;
+    margin: 5% auto;
+}
+.que>.forms label{
+    font-size: 20px;
+}
+.que>.forms input{
+    padding: 5px;
+    outline: none;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #000000;
+    position: relative;
+    top: 4px;
+  }
+  
+  input:checked {
+    border: 6px solid rgb(4, 32, 154);
+    outline: unset !important 
+  }
+.que>.forms button{
+    margin-left: 2%;
+    padding: 5px 30px;
+    background-color: rgb(46, 180, 46);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+.que>.forms button:hover{ 
+    cursor: pointer;
+}
+#dynamic>input{
+    margin: 10px 10px;
+}
+button[disabled="true"]
+{
+    background-color: rgb(148, 249, 148);
+}
+.compare{
+    margin-top: 10px;
+}
+.compare>div{
+    display: inline;
+    margin: 0 10px;
+}
+.btn-div{
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+/* output css */
+.output{
+    margin-top: 15px;
+    /* height: 150px; */
+    display: flex;
+    flex-wrap: wrap; 
+    /* flex-basis: auto;
+    flex-grow: auto; */
+}
+.output>div{
+    /* width: 250px; */
+    width: 20%;
+    /* height: 250px; */
+    border: 2px solid black;
+    padding: 5px;
+    /* margin: 0 15px; */
+}
+.output .string-title{
+    font-size: 24px;
+    text-align: center;
+}
+.output p{
+    font-size: 18px;
+}
